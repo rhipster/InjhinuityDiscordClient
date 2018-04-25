@@ -1,0 +1,10 @@
+﻿{
+  "adg": "AutoDeleteGreet",
+  "adi": "AutoDeleteInfoMessage",
+  "aar": "AutoAssignRoleActive",
+  "aarid": "AutoAssignRoleID",
+  "sgm": "SendGreetMessageOnJoin",
+  "ualee": "UserAuditLogEventsEnabled",
+  "gm": "GreetMessage",
+  "le": "LogExceptions"
+}

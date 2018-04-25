@@ -1,0 +1,37 @@
+﻿{
+  "None": {
+    "title": "",
+    "desc": "",
+    "footer": ""
+  },
+  "Success": {
+    "title": "{0}_title",
+    "desc": "{0}_desc",
+    "footer": "success_footer"
+  },
+  "Failure": {
+    "title": "{0}_title",
+    "desc": "{0}_failure_desc",
+    "footer": "failure_footer"
+  },
+  "Exception": {
+    "title": "{0}_title",
+    "desc": "{0}_desc",
+    "footer": "exception_footer"
+  },
+  "ErrorCode": {
+    "title": "error_title",
+    "desc": "{0}_error_desc",
+    "footer": "error_footer"
+  },
+  "Log": {
+    "title": "{0}_log_title",
+    "desc": "{0}_log_desc",
+    "footer": "log_footer"
+  },
+  "List": {
+    "title": "list_title",
+    "desc": "{0}_list_desc",
+    "footer": "list_footer"
+  }
+}

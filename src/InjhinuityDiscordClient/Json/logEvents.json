@@ -1,0 +1,20 @@
+﻿{
+  "none": 0,
+
+  // DiscordSocketUser events
+  "uj": 0, // 1
+  "ul": 1, // 2
+  "ub": 2, // 4
+  "uub": 3, // 8
+
+  "mr": 4, // 16
+  "md": 5, // 32
+  "mu": 6, // 64
+
+  // on GuildMemberUpdated, confirm if GuildMember changed nickname
+  "nu": 7, // 128
+
+  // on UserUpdated, resolve for type of update
+  "uu": 8, // 256
+  "usu": 9 // 512
+}

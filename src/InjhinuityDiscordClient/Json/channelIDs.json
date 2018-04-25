@@ -1,0 +1,6 @@
+{
+  "bot": "BotChannelID",
+  "event": "EventChannelID",
+  "greet": "GreetMessageChannelID",
+  "log": "UserAuditLogChannelID"
+}

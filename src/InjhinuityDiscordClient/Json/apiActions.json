@@ -1,0 +1,10 @@
+﻿{
+  "delete": "Deleted",
+  "get": "Retrieved",
+  "post": "Created",
+  "put": "Updated",
+  "reset": "Reset",
+  "toggle": "Toggled",
+  "iam": "Assigned",
+  "iamn": "Unassigned"
+}

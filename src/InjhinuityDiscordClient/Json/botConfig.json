@@ -1,0 +1,33 @@
+﻿{
+  "EmbedTimeStamp": "Mon Apr 4th, 4444 at 4:44 AM",
+  "PlayingStatus": "with his 4th Shot",
+
+  "RoundAvatarUrl": "https://imgur.com/IawBXyh.png",
+  "SecondAvatarURL": "http://i.imgur.com/1cRXnDY.png",
+  "BotInviteLink": "https://discordapp.com/oauth2/authorize?client_id=349776917529886720&scope=bot&permissions=1543859262",
+
+  "Aqua": "009688",
+  "Blue": "03A9F4",
+  "Grey": "9E9E9E",
+  "Green": "8BC34A",
+  "LightOrange": "FFC107",
+  "Marine": "3F51B5",
+  "Olive": "CDDC39",
+  "Orange": "FF5722",
+  "Purple": "9C27B0",
+  "Red": "F44336",
+  "White": "FFFFFF",
+
+  "APIActionsPath": "./Json/apiActions.json",
+  "ChannelIDSPath": "./Json/channelIDs.json",
+  "EmbedStructuresPath": "./Json/embedStructs.json",
+  "ErrorsPath": "./Json/errors.json",
+  "GuildParamsPath": "./Json/guildParams.json",
+  "LogEventsPath": "./Json/logEvents.json",
+  "RegionsPath": "./Json/regions.json",
+  "ResourcesPath": "./Json/resources.json",
+
+  "Debug": "false",
+  "PollSeparator": ",",
+  "Prefix": "!"
+}

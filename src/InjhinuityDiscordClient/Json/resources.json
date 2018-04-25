@@ -1,0 +1,202 @@
+﻿{
+  //API ACTIONS
+  "delete_title": "Delete",
+  "delete_desc": "Your **{0}** was succesfully **Deleted**.",
+  "delete_failure_desc": "Your **{0}** could not be **Deleted**.",
+
+  "get_title": "Get",
+  "get_desc": "Your **{0}** was succesfully **Retrieved**.",
+  "get_failure_desc": "Your **{0}** could not be **Retrieved**.",
+
+  "post_title": "Create",
+  "post_desc": "Your **{0}** was succesfully **Created**.",
+  "post_failure_desc": "Your **{0}** could not be **Created**.",
+
+  "put_title": "Update",
+  "put_desc": "Your **{0}** was succesfully **Updated**.",
+  "put_failure_desc": "Your **{0}** could not be **Updated**.",
+
+  "toggle_title": "Toggle",
+  "toggle_desc": "Your **{0}** was succesfully **Toggled**.",
+  "toggle_failure_desc": "Your **{0}** could not be **Toggled**.",
+
+  "reset_title": "Reset",
+  "reset_desc": "Your **{0}** was succesfully **Reset**.",
+  "reset_failure_desc": "Your **{0}** could not be **Reset**.",
+
+
+
+  //COMMAND ACTIONS
+  "ban_title": "User Ban",
+  "ban_desc": "User {0} was banned.",
+  "ban_failure_desc": "Couldn't find the user you want to ban.",
+
+  "ban_perm_title": "Failed User Ban",
+  "ban_perm_desc": "Does this ever happen?",
+  "ban_perm_failure_desc": "User cannot be banned.",
+
+  "date_title": "Event Date",
+  "date_desc": "Does this ever happen?",
+  "date_failure_desc": "Your event's date wasn't in the right format. Try `mm/dd/yyyy hh:mm:ss`",
+
+  "duration_title": "Event Duration",
+  "duration_desc": "Does this ever happen?",
+  "duration_failure_desc": "Your event's duration wasn't in the right format. Try `hh:mm`",
+
+  "event_title": "Upcoming Events",
+  "event_desc": "Here are all the upcoming events for this guild:",
+  "event_failure_desc": "Does this ever happen?",
+
+  "eventrole_title": "Event Role",
+  "eventrole_desc": "Does this ever happen?",
+  "eventrole_failure_desc": "The event role you selected isn't valid.",
+
+  "help_title": "Help",
+  "help_desc": "To get additional details for a command, type **{0}help [command_name]**.\n",
+  "help_failure_desc": "Does this ever happen?",
+
+  "iam_title": "Role Assign",
+  "iam_desc": "Your **{0}** role was succesfully **Assigned**.",
+  "iam_failure_desc": "Failed to assign the **{0}** role, you already have it.",
+
+  "iamn_title": "Role Unassign",
+  "iamn_desc": "Your **{0}** role was succesfully **Unassigned**.",
+  "iamn_failure_desc": "Failed to unassign the **{0}** role, you don't have it.",
+
+  "info_title": "Info",
+  "info_desc": "Info Description: Find something for this?",
+  "info_failure_desc": "Info Failure Description: Find something for this?",
+
+  "kick_title": "User Kick",
+  "kick_desc": "User {0} was kicked.",
+  "kick_failure_desc": "Couldn't find the user you want to kick.",
+
+  "kick_perm_title": "Failed User Kick",
+  "kick_perm_desc": "Does this ever happen?",
+  "kick_perm_failure_desc": "User cannot be kicked.",
+
+  "link_title": "Invite Link",
+  "link_desc": "{0}",
+  "link_failure_desc": "Does this ever happen?",
+
+  "mute_title": "User Mute",
+  "mute_desc": "User {0} is now muted.",
+  "mute_failure_desc": "Couldn't find the user you want to mute.",
+
+  "mute_mia_title": "Mute Role Missing",
+  "mute_mia_desc": "Does this ever happen?",
+  "mute_mia_failure_desc": "The mute role for this guild isn't set.",
+
+  "mute_perm_title": "Failed User Mute",
+  "mute_perm_desc": "Does this ever happen?",
+  "mute_perm_failure_desc": "User cannot be muted.",
+
+  "muterole_title": "Mute Role",
+  "muterole_desc": "Does this ever happen?",
+  "muterole_failure_desc": "The mute role you selected isn't valid.",
+
+  "role_title": "Role",
+  "role_desc": "Does this ever happen?",
+  "role_failure_desc": "The role you selected isn't valid.",
+
+  "timezone_title": "Event Timezone",
+  "timezone_desc": "Does this ever happen?",
+  "timezone_failure_desc": "Your event's timezone couldn't be found.",
+
+  "unban_title": "User Unban",
+  "unban_desc": "User {0} was unbanned.",
+  "unban_failure_desc": "Couldn't find the user you want to unban.",
+
+  "unmute_title": "User Unmute",
+  "unmute_desc": "User {0} is now unmuted.",
+  "unmute_failure_desc": "Couldn't find the user you want to unmute.",
+
+
+
+  //LIST ACTIONS
+  "list_title": "**{0}** list for : **{1}**",
+
+  "channel_list_desc": "Here are all the configured **Channels** for this Guild.\n{1}",
+
+  "command_list_desc": "Here are all the available **Commands** for this Guild. Use {0}*(command_name)* to trigger them.\n{1}",
+
+  "event_list_desc": "Here are all the organised **Events** for this Guild.\n{1}",
+
+  "param_list_desc": "Here are all the configured **Params** for this Guild.\n{1}",
+
+  "reaction_list_desc": "Here are all the available **Reactions** for this Guild. Use *(reaction_name)* to trigger them.\n{1}",
+
+  "role_list_desc": "Use **{0}iam** *(role_name)* to assign any role listed here.\nUse **{0}iamn** *(role_name)* to remove one.\n{1}",
+
+
+
+  //LOG ACTIONS
+  "user_joined_log_title": "User Joined",
+  "user_joined_log_desc": "User {0} just joined the guild.\nID: {1}",
+
+  "user_left_log_title": "User Left",
+  "user_left_log_desc": "User {0} just left the guild.\nID: {1}",
+
+  "user_banned_log_title": "User Banned",
+  "user_banned_log_desc": "User {0} was just banned.\nID: {1}",
+
+  "user_unbanned_log_title": "User Unbanned",
+  "user_unbanned_log_desc": "User {0} was just unbanned.\nID: {1}",
+
+  "user_updated_log_title": "User Updated",
+  "user_updated_log_desc": "User {0} was updated.\nID: {1}",
+
+  "user_updated_username_log_title": "User Username Updated",
+  "user_updated_username_log_desc": "Old Username: {0}. \nNew Username: {1}",
+
+  "user_updated_avatar_log_title": "User Avatar Updated",
+  "user_updated_avatar_log_desc": "Old Avatar: {0}. \nNew Avatar: {1}",
+
+  "msg_updated_log_title": "Message Updated",
+  "msg_updated_log_desc": "A message has been updated.\n\nMessage ID: {0}\nAuthor: {1}\nID: {2}",
+
+  "msg_deleted_log_title": "Message Deleted",
+  "msg_deleted_log_desc": "A message has been deleted.\n\nMessage ID: {0}\nAuthor: {1}\nID: {2}",
+
+
+
+  //ERROR CODE ACTIONS
+  "error_title": "Error - Code {0}",
+
+  "0001_error_desc": "I couldn't authenticate properly with an external service!\nPlease try again later or contact the owner if this problem persists!\n\nExtra info: {0}",
+  "0002_error_desc": "I encountered a problem contacting an external service!\nPlease try again later or contact the owner if this problem persists!\n\nExtra info: {0}",
+  "0003_error_desc": "Failed to send your request to the server! Check your inputs!\n\nExtra info: {0}",
+  "0004_error_desc": "You don't have the right permissions to use this command!",
+  "0005_error_desc": "Failed to synchronise guilds inside the API! Failed on:\n\n {0}\n\nExtra info: {1}",
+  "0006_error_desc": "Failed retrieving events for the following guild: {0}.",
+  "0007_error_desc": "Failed retrieving the event channel for the following guild: {0}.",
+
+
+  //EXCEPTION ACTIONS
+  "module_exception_title": "Module Exception",
+  "module_exception_desc": "The following exception occured.\n\n{0}\n\nSource: {1}",
+
+  "exception_title": "Exception",
+  "exception_desc": "The following exception occured.\n\n{0}",
+
+
+
+  //FOOTERS
+  "error_footer": "An error occured - Error code: {0}",
+  "exception_footer": "Source: {0}",
+  "failure_footer": "Command failed: {0}",
+  "log_footer": "",
+  "success_footer": "Command succeeded",
+  "list_footer": "",
+
+
+
+  //FIELD ACTIONS
+  "msg_deleted_field_title": "Deleted Message",
+  "msg_old_field_title": "Old Message",
+  "msg_new_field_title": "New Message",
+  "stacktrace_field_title": "Stack Trace",
+  "started_event_field_title": "Started Events!",
+  "upcoming_short_event_field_title": "Events upcoming in less than 10 minutes!",
+  "upcoming_long_event_field_title": "Events upcoming in less than an hour!"
+}
